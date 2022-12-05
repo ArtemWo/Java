@@ -5,4 +5,6 @@
 - -   [HW2011_11_02_generator ](https://github.com/ArtemWo/Java/tree/master/HW2011_11_02_generator) 
 - -   [HW2022_11_02_MailDeliveryService ](https://github.com/ArtemWo/Java/tree/master/HW2022_11_02_MailDeliveryService) 
 - -   [HW_alle_zusammen ](https://github.com/ArtemWo/Java/tree/master/HW_alle_zusammen) 
+- -   [HW2022_11_30 ](https://github.com/ArtemWo/Java/tree/master/HW_Java_30_11_22) 
+- -   [LinkedList ](https://github.com/ArtemWo/Java/tree/master/LinkedList2) 
 
