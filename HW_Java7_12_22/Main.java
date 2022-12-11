@@ -51,6 +51,7 @@ public class Main {
             }
         }
         return chekAnagram.isEmpty();
+        
     }
 }
 
