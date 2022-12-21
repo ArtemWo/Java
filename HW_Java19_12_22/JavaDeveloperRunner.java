@@ -3,7 +3,7 @@ package HW_Java.HW_Java19_12_22;
 import java.util.ArrayList;
 import java.util.List;
 //   я не успел сделать домашку и мы ее разобрали на уроке, я сделал другую на тему Iterator
-public class Main {
+public class JavaDeveloperRunner{
     public static void main(String[] args) {
         String[] skills = {"Java", "Srping", "Hibernate", "Maven", "PostgreSOL"};
         ArrayList<String> arrayList = new ArrayList<>();
