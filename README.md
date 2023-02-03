@@ -13,5 +13,8 @@
 - -   [HW11_1_23](https://github.com/ArtemWo/Java/tree/master/HW11_1_23)
 - -   [HW 23.01.2023 ](https://github.com/ArtemWo/Java/tree/master/HW23_1_23)
 - -   [HW 25_1_23](https://github.com/ArtemWo/Java/tree/master/HW25_1_23)
+- -   [HW 1.2.23 ](https://github.com/ArtemWo/Java/tree/master/HW1_2_23)
+- -   [ ]()
+- -   [ ]()
 - -   [ ]()
 - -   [ ]()
