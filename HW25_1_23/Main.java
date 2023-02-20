@@ -1,6 +1,9 @@
-package HW_Java.HW25_1_23;
+package HW_Java.Java.HW25_1_23;
 
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -50,6 +53,24 @@ public class Main {
         Stream<Map.Entry<Integer, String>> mapStream = map.entrySet().stream();
         mapStream.filter(x -> x.getKey() > 20)
                 .forEach(x -> System.out.println(x.getKey() + "     " + x.getValue()));
+
+/*todo   Напишите код, который считывает текстовый файл и используя Stream API,
+               подсчитывает количество слов в файле.*/
+
+        Stream<String> lines =
+                null;
+        try {
+            lines = Files.lines(Paths.get("data.txt"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        long wordsCount = lines
+                .flatMap(s -> Stream.of(s.split("[\s\n\t\r]+")).filter(t -> !t.isEmpty()))
+                .count();
+          lines.close();
+        System.out.println("Number of words: " + wordsCount);
+
 
     }
 }
