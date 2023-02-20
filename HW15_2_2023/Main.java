@@ -24,22 +24,6 @@ public class Main {
         } else {
             System.out.println("Логин и пароль неверны!");
         }
+    }
+}
 
-    }
-    public class LoginValidator{
-    public static boolean check(String login, String password, String confirmPassword) {
-        try {
-            if (login.length() >= 20 || !login.matches("[a-zA-Z0-9_]+")) {
-                throw new WrongLoginException();
-            }
-            if (password.length() >= 20 || !password.matches("[a-zA-Z0-9_]+") || !password.equals(confirmPassword)) {
-                throw new WrongPasswordException();
-            }
-            return true;
-        } catch (WrongLoginException | WrongPasswordException e) {
-            System.out.println(e.getMessage());
-            return false;
-        }
-    }
-}
-}
