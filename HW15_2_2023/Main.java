@@ -14,8 +14,19 @@ public class Main {
     второй принимает сообщение исключения и передает его в конструктор класса Exception.
     Обработка исключений проводится внутри метода.
     Используем multi-catch block. Метод возвращает true, если значения верны или false в другом случае.*/
-        System.out.println(check("erwrw2344", "33","FFG3455FFfggg_jhh"));
+        String login = "my_login";
+        String password = "my_password";
+        String confirmPassword = "my_password";
+
+        boolean isValid = LoginValidator.check(login, password, confirmPassword);
+        if (isValid) {
+            System.out.println("Логин и пароль верны!");
+        } else {
+            System.out.println("Логин и пароль неверны!");
+        }
+
     }
+    public class LoginValidator{
     public static boolean check(String login, String password, String confirmPassword) {
         try {
             if (login.length() >= 20 || !login.matches("[a-zA-Z0-9_]+")) {
@@ -31,4 +42,4 @@ public class Main {
         }
     }
 }
-
+}
