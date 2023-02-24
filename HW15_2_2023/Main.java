@@ -1,6 +1,6 @@
 package HW_Java.Java.HW15_2_2023;
 
-public class Main {
+public class LoginAndPasswordChecker {
     public static void main(String[] args) {
  /*todo; Exceptions. Проверка логина и пароля
       Создать статический метод который принимает на вход три параметра: login, password и confirmPassword.
@@ -17,7 +17,7 @@ public class Main {
         String login = "my_login";
         String password = "my_password";
         String confirmPassword = "my_password";
-
+        System.out.println("dhsdhsd");
         boolean isValid = LoginValidator.check(login, password, confirmPassword);
         if (isValid) {
             System.out.println("Логин и пароль верны!");
