@@ -17,4 +17,4 @@
 - -   [HW 8.2.23](https://github.com/ArtemWo/Java/tree/master/HW8_02_23)
 - -   [ HW 13.2.23](https://github.com/ArtemWo/Java/tree/master/HW13_02_2023)
 - -   [HW15.02.23](https://github.com/ArtemWo/Java/tree/master/HW15_2_2023)
-- -   [ ]()
+- -   [HW20_02_23](https://github.com/ArtemWo/Java/tree/master/HW20_02_23)
