@@ -19,7 +19,7 @@
 - -   [HW15.02.23](https://github.com/ArtemWo/Java/tree/master/HW15_2_2023)
 - -   [HW20_02_23](https://github.com/ArtemWo/Java/tree/master/HW20_02_23)
 - -   [HW22_2_23](https://github.com/ArtemWo/Java/tree/master/HW22_2_23)
-- -   []()
+- -   [HW27_02_23](https://github.com/ArtemWo/Java/tree/master/HW27_02_23)
 - -   [HW1_03_23](https://github.com/ArtemWo/Java/tree/master/HW1_03_23)
 - -   []()
 - -   []()
