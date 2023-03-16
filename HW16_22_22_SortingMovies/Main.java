@@ -1,4 +1,4 @@
-package HW_Java.HW16_22_22_SortingMovies;
+package org.example.HW16_22_22_SortingMovies;
 
 import HW_Java.HW16_22_22_SortingMovies.Comparator.ComparatoYea;
 import HW_Java.HW16_22_22_SortingMovies.Comparator.ComparatorMoviaGener;
@@ -19,13 +19,13 @@ public class Main {
         Scanner console = new Scanner(System.in);
         System.out.println("------------Enter movie sorting--------------");
         String input = console.nextLine();
-        Film film1 = new Film("The Intouchables", 9, "comedy", 2011);
-        Film film2 = new Film("Two is a Family", 10, "drama", 2016);
-        Film film3 = new Film("Ford vs Ferrari", 7, "comedy", 2019);
-        Film film4 = new Film("Ride Like a Girl", 3, "drama", 2020);
+        HW_Java.HW16_22_22_SortingMovies.Film film1 = new HW_Java.HW16_22_22_SortingMovies.Film("The Intouchables", 9, "comedy", 2011);
+        HW_Java.HW16_22_22_SortingMovies.Film film2 = new HW_Java.HW16_22_22_SortingMovies.Film("Two is a Family", 10, "drama", 2016);
+        HW_Java.HW16_22_22_SortingMovies.Film film3 = new HW_Java.HW16_22_22_SortingMovies.Film("Ford vs Ferrari", 7, "comedy", 2019);
+        HW_Java.HW16_22_22_SortingMovies.Film film4 = new HW_Java.HW16_22_22_SortingMovies.Film("Ride Like a Girl", 3, "drama", 2020);
 
 
-        Film[] films = {film1, film2, film3, film4};
+        HW_Java.HW16_22_22_SortingMovies.Film[] films = {film1, film2, film3, film4};
         System.out.println("=============== sort by movie title ===============");
                Arrays.sort(films, new ComparatorMovieTitle());
         for (int i = 0; i < films.length; i++) {

@@ -1,4 +1,5 @@
-package HW_Java.HW23_1_23;
+/*
+package org.example.HW23_1_23;
 
 import KW_Java.KW23_1_23.Student;
 
@@ -8,6 +9,7 @@ import java.util.stream.DoubleStream;
 
 public class Main {
     public static void main(String[] args) {
+*/
 /*todo
     Создать класс Emploee
     Сгрупировать сотрудников по должности
@@ -15,7 +17,8 @@ public class Main {
     Получить список сотрудников с зп > 10 000
     Получить список сотрудников из отдела маркетинг и увеличить зп на 15%
     Получить сотрудника с самой низкой зп
-    Получите сотрудников из всех отделов с максимальной зп*/
+    Получите сотрудников из всех отделов с максимальной зп*//*
+
 
         Employee e1 = new Employee("Olga", "finance", "accountant", 12_000);
         Employee e2 = new Employee("Petr", "security ", "security", 7_000);
@@ -54,4 +57,4 @@ public class Main {
         Optional<Employee> res6 = employees.stream().sorted(((o1, o2) -> (int) (o1.getSalary() + o2.getSalary()))).findFirst();
         System.out.println("Получите сотрудников из всех отделов с максимальной зп " + "\n" + res6);
     }
-}
+}*/

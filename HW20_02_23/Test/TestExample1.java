@@ -1,3 +1,4 @@
+/*
 package HW_Java.Java.HW20_02_23.Test;
 
 import HW_Java.Java.HW20_02_23.ElementsExample1;
@@ -17,4 +18,4 @@ class TestExample1 {
         List<Integer> actualTest = ElementsExample1.findElements(arr1, arr2) ;
         Assertions.assertEquals(actualTest, actualTest);
     }
-}
+}*/

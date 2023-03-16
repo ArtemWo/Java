@@ -1,6 +1,6 @@
-package HW_Java.Java.HW22_2_23;
+package org.example.HW22_2_23;
 
-import KW_Java.KW16_11_22.List;
+
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;

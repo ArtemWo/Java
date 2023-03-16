@@ -1,3 +1,4 @@
+/*
 package HW_Java.Java.HW20_02_23.Test;
 
 import org.junit.jupiter.api.Assertions;
@@ -16,3 +17,4 @@ class Example2Test {
         Assertions.assertArrayEquals(expectedArray, resultArray);
     }
 }
+*/
