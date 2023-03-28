@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 
 
 class School{
-	// Поля с аннотацией @StudentInfo
+	
 	@StudentInfo(name = "Tom", surname = "Smith", age = 15)
 	private Student student1;
 
@@ -23,13 +23,13 @@ class School{
 
 
 	private void initStudents() {
-		// Получаем все поля класса School
+		
 		Field[] fields = School.class.getDeclaredFields();
 
 		for(Field field : fields) {
 
 			if(field.isAnnotationPresent(StudentInfo.class)) {
-				// Получаем значения параметров аннотации @StudentInfo
+				
 				StudentInfo annotation = field.getAnnotation(StudentInfo.class);
 				String name = annotation.name();
 				String surname = annotation.surname();
