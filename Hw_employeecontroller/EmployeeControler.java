@@ -1,4 +1,4 @@
-package org.example.hw_employeecontroller;
+package org.example.Hw_employeecontroller;
 /*todo Через контроллер EmployeeController (см. код в репозитории) реализовать:
        1.REST запрос на вывод списка всех Employee, чье имя начинается на определенные буквы.
        2.REST запрос на вывод общего количества сотрудников.
